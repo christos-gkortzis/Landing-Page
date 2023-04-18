@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    padding: 8px 120px;
+}
+ .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+ }
+.main_text{
+    font-size: 38px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
