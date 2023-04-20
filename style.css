@@ -23,7 +23,7 @@ body{
 .quote{
     display: flex;
     justify-content: center;
-   flex-direction: column;
+    flex-direction: column;
    
 
 }
@@ -49,4 +49,21 @@ img{
   
     padding: 32px;
     gap: 52px;
+}
+.Motivational{
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    flex-direction: column;
+
+}
+.Thor{
+    font-size: 36px;
+    font-style: light italic;
+    
+}
+.Sign_by{
+    margin-left: auto;
 }
