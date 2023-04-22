@@ -2,7 +2,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-    text-align: center;
+    
     flex-direction: column;
 }
 .header{
@@ -16,7 +16,7 @@ body{
     color: #F9FAF8;
  }
 .main_text{
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
@@ -66,4 +66,36 @@ img{
 }
 .Sign_by{
     margin-left: auto;
+}
+.sign_up{
+    display: flex;
+    margin: 40px 120px;
+    padding: 20px 60px;
+    background-color: #3882f6;
+    font-size: 36px;
+    color: whitesmoke;
+    
+}
+.text_left{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+}
+.bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+button{
+    
+    background-color: #3882f6;
+    color: whitesmoke;
+    border-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p{
+    margin: 0;
 }
