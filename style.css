@@ -5,6 +5,14 @@ body{
     
     flex-direction: column;
 }
+ul{
+    list-style: none;
+}
+a{
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+}
 .header{
     background-color: #1F2937;
     display: flex;
@@ -98,4 +106,12 @@ button{
 }
 p{
     margin: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
 }
